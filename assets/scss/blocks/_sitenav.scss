@@ -1,0 +1,25 @@
+.sitenav {
+}
+
+.sitenav__list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    @include list-unstyled;
+}
+.sitenav__item {
+    margin: 0;
+}
+.sitenav__item-link {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    margin: 0;
+    &:hover {
+        opacity: 0.5;
+    }
+}

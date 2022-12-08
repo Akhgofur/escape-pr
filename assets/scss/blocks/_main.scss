@@ -1,0 +1,28 @@
+.main {
+    background-color: #F7F7F7;
+}
+.main__nav-wrapper {
+    background-color: #fff;
+}
+.main__nav {
+    padding: 22px 0;
+}
+.main__nav-list {
+    @include list-unstyled;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.main__nav-item {
+}
+.main__nav-item-link {
+    color: #768088;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    &:hover {
+        opacity: 0.5;
+    }
+}
